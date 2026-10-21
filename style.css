@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+
+
+body{
+    background-color:rgb(156, 221, 184);
+    font-family:'Garamond';
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding-top: 15px;
+    background-color: teal;
+
+}
+
+main{
+    margin: 20px;
+}
+mainbestill{
+    margin:0;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Gluten;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+h2{
+    color: black;
+    text-transform: uppercase;
+    font-family: Gluten;
+    font-size: 50px;
+  
+}
+h3 {
+    font-family: Garamond;
+    color: white;
+    text-transform: lowercase;
+    background-color: teal;
+    padding: 20px;
+}
+h4{
+    text-transform: uppercase;
+    font-family: Gluten;
+}
+
+h5{
+    text-align: left;
+    text-transform: lowercase;
+    font-family: Gluten;
+    letter-spacing: 5px;
+}
+
+
+
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+    color:white;
+    flex-direction: row;
+}
+
+.menu-item{
+    text-align: center;
+    text-decoration: none;
+    font-family: Gluten;
+    text-transform: uppercase;
+    float: left;
+    color:white;
+    display: block; 
+    width: calc(100vw/4);
+    padding: 30px 0;
+
+}
+
+.menu-item:hover {
+    background-color: rgb(78, 62, 17);
+    display: inline-block;
+
+}
+.menu-item-active{
+    background-color: rgb(17, 78, 76);
+    display: inline-block;
+}
+.img-hjem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0%;
+    
+}
+.img-hjem img {
+    width: 33.33%;
+}
+#bestille{
+    color: white;
+    padding:20px 0;
+    font-family: garamond;
+    font-size: 100%;
+    background-color: teal;
+    width: 100%;
+}
+
+.price-wrapper {
+    font-family: Gluten;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.order-layout{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    
+}
+
+.order-row{
+    justify-content: space-evenly;
+    color:white;
+}
+
+.order-box{
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(78, 62, 17);
+    margin:20px;
+
+}
+.order-box img{
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-menu {
+        flex-direction: column;
+     
+    }
+    .menu-item{
+        width: 100%;
+    }
+    .img-hjem{
+        flex-direction: column;
+    }
+    .img-hjem img{
+        width: 100%;
+    }
+    .order-layout{
+        flex-direction: column;
+    }
+    
+    .order-box{
+        text-align: center;
+        width: 90%;
+        margin: 0;
+        
+
+    }
+
+  }
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 70px;
+    text-align: center;
+
+    
+
+}
+
+_tr {
+    height: 70px;
+    color:white;
+
+}
+
+_td {
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(78, 62, 17);
+
+}    
+_td _img{
+    height: 200px;
+}
+.foodname{
+    font-family: Gluten;
+
+}
+
+.omosstable{
+    border-spacing: 20px;
+}
+
+
+.app {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+
+
+    
+
+
+
+footer {
+    text-align: left;
+    padding: 30px;
+    background-color: teal;
+    color: white;
+    
+}
